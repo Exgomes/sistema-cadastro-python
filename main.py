@@ -40,10 +40,6 @@ while True:
         else:
             print("Usuário não encontrado.")
 
-    elif opcao == "0":
-        print("Saindo do sistema...")
-        break
-    
     elif opcao == "4":
         nome_remove = input("Digite o nome do usuário que deseja remover: ")
 
@@ -54,3 +50,9 @@ while True:
                 break
         else:
             print("Usuário não encontrado!")
+
+    elif opcao == "0":
+        print("Saindo do sistema...")
+        break
+    
+    
